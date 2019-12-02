@@ -5,6 +5,7 @@ var mqtt = require('mqtt');
 const cron = require("node-cron");
 
 // comment this when no mongo DB installed on your server
+// connect to mongo DB 
 // mongoose.connect(config.database)
 
 var topic = "product/klikternak"
